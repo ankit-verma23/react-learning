@@ -25,6 +25,7 @@ function Card(props) {
                 <p>{props.location}</p>
             </div>
             <button>Apply Now</button>
+    
         </div>
       
     </div>

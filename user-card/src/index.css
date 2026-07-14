@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.parent {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 20px;
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 320px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .top .tag {
+  background-color: rgb(0, 168, 36);
+  color: #fff;
+  padding: 5px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+.card .top h3 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+}
+
+.center img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  height: 100px;
+  width: 100px;
+  gap: 5px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.center h2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.center .role {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  padding-bottom: 5px;
+}
+
+.center .intro {
+  font-size: 10px;
+  font-weight: 500;
+  color: #555;
+  line-height: 1;
+  text-align: center;
+}
+
+.bottom {
+  border-top: 1px solid #333;
+  padding: 8px;
+}
+
+.bottom button {
+  border: none;
+  width: 100%;
+  color: #111;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 30px;
+  background: transparent;
+  transition: all 0.3s ease;
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: #1E90FF;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
